@@ -31,7 +31,7 @@ export default function AstronautsPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Astronauts est un projet de logo pour un club de football américain fictif. Inspiré par l'esprit d'exploration des années 70, le design incarne la passion et l'unité. Préparez-vous à vous lancer dans une nouvelle victoire avec Astronauts — où le triomphe est la mission.
+              Astronauts est un projet de logo pour un club de football américain fictif. Inspiré par l&apos;esprit d&apos;exploration des années 70, le design incarne la passion et l&apos;unité. Préparez-vous à vous lancer dans une nouvelle victoire avec Astronauts — où le triomphe est la mission.
             </p>
           </div>
         </div>

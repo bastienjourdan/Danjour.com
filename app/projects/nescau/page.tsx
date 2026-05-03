@@ -33,7 +33,7 @@ export default function NescauPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Le projet de refonte de l'emballage de Nescau Brésil, réalisé en partenariat avec IED Rio de Janeiro, vise à donner un nouveau souffle à l'identité visuelle de Nescau tout en explorant des idées novatrices. L'objectif est de renforcer l'attrait de Nescau sur le marché brésilien tout en soulignant l'engagement continu en faveur de la qualité et de la durabilité.
+              Le projet de refonte de l&apos;emballage de Nescau Brésil, réalisé en partenariat avec IED Rio de Janeiro, vise à donner un nouveau souffle à l&apos;identité visuelle de Nescau tout en explorant des idées novatrices. L&apos;objectif est de renforcer l&apos;attrait de Nescau sur le marché brésilien tout en soulignant l&apos;engagement continu en faveur de la qualité et de la durabilité.
             </p>
           </div>
         </div>

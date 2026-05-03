@@ -31,7 +31,7 @@ export default function KangolPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              La marque Kangol, icone du hip-hop des annees 80, se reinvente avec une nouvelle gamme aux motifs et couleurs vives, melant nostalgie et modernite. Ce projet fictif, pour le challenge Rebranding It, modernise l'image de Kangol tout en honorant son riche heritage, visant une nouvelle generation en quete de style et d'originalite.
+              La marque Kangol, icone du hip-hop des annees 80, se reinvente avec une nouvelle gamme aux motifs et couleurs vives, melant nostalgie et modernite. Ce projet fictif, pour le challenge Rebranding It, modernise l&apos;image de Kangol tout en honorant son riche heritage, visant une nouvelle generation en quete de style et d&apos;originalite.
             </p>
           </div>
         </div>

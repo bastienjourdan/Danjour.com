@@ -35,7 +35,7 @@ export default function RoseDesVentsPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              La Ferme Rose des Vents, entreprise familiale de production de volaille dans les Hautes-Laurentides, soigne son image et la qualité de ses produits. Le site web vise à attirer une clientèle locale, sensible à l'environnement et à la qualité alimentaire. Il met en avant les valeurs familiales et l'échelle humaine de l'entreprise, tout en soulignant ses atouts, comme la livraison locale et les produits prêts à cuisiner.
+              La Ferme Rose des Vents, entreprise familiale de production de volaille dans les Hautes-Laurentides, soigne son image et la qualité de ses produits. Le site web vise à attirer une clientèle locale, sensible à l&apos;environnement et à la qualité alimentaire. Il met en avant les valeurs familiales et l&apos;échelle humaine de l&apos;entreprise, tout en soulignant ses atouts, comme la livraison locale et les produits prêts à cuisiner.
             </p>
           </div>
         </div>

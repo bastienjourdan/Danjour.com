@@ -35,13 +35,13 @@ export default function AXAPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary mb-6">
-              Conception des directives UI pour l'application mobile AXA — créer des applications mobiles belles et fonctionnelles, portant l'identité visuelle d'AXA.
+              Conception des directives UI pour l&apos;application mobile AXA — créer des applications mobiles belles et fonctionnelles, portant l&apos;identité visuelle d&apos;AXA.
             </p>
             <p className="text-base leading-7 text-text-secondary mb-6">
-              Les directives sont basées sur une grille de 8 pixels, favorisant la cohérence et la facilité d'utilisation grâce à sa divisibilité.
+              Les directives sont basées sur une grille de 8 pixels, favorisant la cohérence et la facilité d&apos;utilisation grâce à sa divisibilité.
             </p>
             <p className="text-base leading-7 text-text-secondary">
-              Sur cette plateforme, vous trouverez un aperçu rapide de chaque élément de design ainsi que les liens de téléchargement et références. Les éléments sont organisés en deux groupes — Constantes et Composants — afin de faciliter la navigation et de retrouver rapidement l'élément recherché.
+              Sur cette plateforme, vous trouverez un aperçu rapide de chaque élément de design ainsi que les liens de téléchargement et références. Les éléments sont organisés en deux groupes — Constantes et Composants — afin de faciliter la navigation et de retrouver rapidement l&apos;élément recherché.
             </p>
           </div>
         </div>

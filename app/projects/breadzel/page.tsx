@@ -31,7 +31,7 @@ export default function BreadzelPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Breadzel révolutionne la commande de pain en mettant en relation les amateurs de pain frais avec leurs boulangeries préférées. Cette application conviviale permet des commandes personnalisées, un suivi en temps réel du processus de préparation et une livraison rapide. Avec Breadzel, chaque commande célèbre le goût authentique du pain artisanal, simplifié pour s'intégrer parfaitement à votre style de vie moderne.
+              Breadzel révolutionne la commande de pain en mettant en relation les amateurs de pain frais avec leurs boulangeries préférées. Cette application conviviale permet des commandes personnalisées, un suivi en temps réel du processus de préparation et une livraison rapide. Avec Breadzel, chaque commande célèbre le goût authentique du pain artisanal, simplifié pour s&apos;intégrer parfaitement à votre style de vie moderne.
             </p>
           </div>
         </div>

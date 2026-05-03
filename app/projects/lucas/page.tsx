@@ -31,7 +31,7 @@ export default function LucasPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Création d'identité visuelle et de logo pour un photographe professionnel.
+              Création d&apos;identité visuelle et de logo pour un photographe professionnel.
             </p>
           </div>
         </div>

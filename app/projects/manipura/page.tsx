@@ -31,7 +31,7 @@ export default function ManipuraPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Dans le cadre de ma collaboration avec la marque de surf Manipura, j'ai développé une série de visuels et d'illustrations uniques pour leur ligne de vêtements.
+              Dans le cadre de ma collaboration avec la marque de surf Manipura, j&apos;ai développé une série de visuels et d&apos;illustrations uniques pour leur ligne de vêtements.
             </p>
           </div>
         </div>

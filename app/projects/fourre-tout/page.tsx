@@ -65,7 +65,7 @@ export default function FourreToutPage() {
           <div className="lg:w-1/3"></div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Fourre-tout, c'est le remue-meninges pour differents projets, influence par l'enorme quantite de medias et d'informations qui nous entourent. Fourre-tout se compose de concepts regurgites ou d'idees non acceptees pour de nouveaux designs.
+              Fourre-tout, c&apos;est le remue-meninges pour differents projets, influence par l&apos;enorme quantite de medias et d&apos;informations qui nous entourent. Fourre-tout se compose de concepts regurgites ou d&apos;idees non acceptees pour de nouveaux designs.
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ export default function ALaCueillettePage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              A La Cueillette transforme et vend des produits sauvages de la region des Hautes-Laurentides. L'entreprise vise a renforcer sa presence sur le marche et a mieux refleter son engagement envers la nature et ses produits.
+              A La Cueillette transforme et vend des produits sauvages de la region des Hautes-Laurentides. L&apos;entreprise vise a renforcer sa presence sur le marche et a mieux refleter son engagement envers la nature et ses produits.
             </p>
           </div>
         </div>

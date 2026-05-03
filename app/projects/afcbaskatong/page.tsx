@@ -35,7 +35,7 @@ export default function AFCBaskatongPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              La pourvoirie AFC Baskatong, nichée au cœur de la nature québécoise, modernise son image tout en préservant son essence et son histoire. Ce projet comprend la refonte de son site web et la création d'un nouveau logo, harmonisant tradition et modernité afin de demeurer une destination de choix pour les amateurs de plein air et d'aventure.
+              La pourvoirie AFC Baskatong, nichée au cœur de la nature québécoise, modernise son image tout en préservant son essence et son histoire. Ce projet comprend la refonte de son site web et la création d&apos;un nouveau logo, harmonisant tradition et modernité afin de demeurer une destination de choix pour les amateurs de plein air et d&apos;aventure.
             </p>
           </div>
         </div>

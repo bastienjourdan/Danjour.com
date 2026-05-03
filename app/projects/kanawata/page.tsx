@@ -36,7 +36,7 @@ export default function KanawataPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Refonte de l'identité visuelle du Kanawata Lodge — moderniser la marque tout en préservant l'essence du lieu et son grand héron emblématique. Couleurs naturelles, logo et site web ciblant les familles québécoises, groupes européens et clientèle corporative. Le projet vise à véhiculer des sentiments de rareté, d'intimité, de chaleur et de qualité.
+              Refonte de l&apos;identité visuelle du Kanawata Lodge — moderniser la marque tout en préservant l&apos;essence du lieu et son grand héron emblématique. Couleurs naturelles, logo et site web ciblant les familles québécoises, groupes européens et clientèle corporative. Le projet vise à véhiculer des sentiments de rareté, d&apos;intimité, de chaleur et de qualité.
             </p>
           </div>
         </div>

@@ -31,7 +31,7 @@ export default function RealByFakePage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Le site Internet de Real by Fake se veut une vitrine interactive mettant en valeur l'excellence de ses services de post-production et d'effets spéciaux. En fournissant des informations détaillées, des démonstrations et des moyens de communication faciles, nous visons à renforcer la confiance des clients potentiels et à positionner Real by Fake comme un partenaire de confiance dans l'industrie du divertissement.
+              Le site Internet de Real by Fake se veut une vitrine interactive mettant en valeur l&apos;excellence de ses services de post-production et d&apos;effets spéciaux. En fournissant des informations détaillées, des démonstrations et des moyens de communication faciles, nous visons à renforcer la confiance des clients potentiels et à positionner Real by Fake comme un partenaire de confiance dans l&apos;industrie du divertissement.
             </p>
           </div>
         </div>

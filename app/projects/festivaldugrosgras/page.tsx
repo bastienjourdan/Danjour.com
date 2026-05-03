@@ -33,7 +33,7 @@ export default function FestivalDuGrosGrasPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Refonte de l'identité visuelle du Festival du Gros Gras — moderniser l'image de l'événement tout en préservant son essence punk rock. Inspiré du symbole emblématique des cornes, cher à la culture rock, et adoptant des textures brutes et audacieuses, le nouveau design reflète l'énergie et l'authenticité du festival. Logo et site web véhiculant des sentiments de rébellion, de convivialité et de passion musicale.
+              Refonte de l&apos;identité visuelle du Festival du Gros Gras — moderniser l&apos;image de l&apos;événement tout en préservant son essence punk rock. Inspiré du symbole emblématique des cornes, cher à la culture rock, et adoptant des textures brutes et audacieuses, le nouveau design reflète l&apos;énergie et l&apos;authenticité du festival. Logo et site web véhiculant des sentiments de rébellion, de convivialité et de passion musicale.
             </p>
           </div>
         </div>

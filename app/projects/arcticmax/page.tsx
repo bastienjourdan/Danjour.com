@@ -31,7 +31,7 @@ export default function ArcticMaxPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Arcticmax est une marque spécialisée dans les chaussettes d'extérieur. Conscients de la demande croissante de matériaux naturels et durables, nous avons entrepris un effort de rebranding pour nous aligner sur ces principes. Nous avons raffiné notre identité visuelle pour incarner l'essence d'Arcticmax, symbolisée par ce petit renard.
+              Arcticmax est une marque spécialisée dans les chaussettes d&apos;extérieur. Conscients de la demande croissante de matériaux naturels et durables, nous avons entrepris un effort de rebranding pour nous aligner sur ces principes. Nous avons raffiné notre identité visuelle pour incarner l&apos;essence d&apos;Arcticmax, symbolisée par ce petit renard.
             </p>
           </div>
         </div>
