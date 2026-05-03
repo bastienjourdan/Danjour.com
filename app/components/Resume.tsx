@@ -4,66 +4,117 @@ import { Timeline } from "./Timeline";
 const resumeData: ResumeData = {
   experiences: [
     {
-      company: "LogicGate",
-      period: "2022 - Present",
+      company: "Studio Danjour",
+      period: "2017 - Présent",
       positions: [
         {
-          title: "Frontend Developer III",
+          title: "Fondateur — Designer stratégique UX/UI & Directeur Artistique",
           description: [
-            "I lead feature development on a team by analyzing requirements, designing solutions, and assist in evolving the frontend chapter of our organization.",
-          ],
-        },
-        {
-          title: "Frontend Developer II",
-          description: [
-            "I joined LogicGate and immediately took charge of feature development on my team while also assisting other frontend developers in the organization.",
+            "Conception UX/UI pour sites web et plateformes numériques, direction artistique et développement d'identités visuelles pour des clients en France et au Québec.",
+            "Mandats corporatifs notables : AXA France, Hermès. Gestion complète des projets créatifs — brief, budget, échéancier, livraison.",
+            "Collaboration avec développeurs, agences partenaires et équipes marketing. Conseil en stratégie de marque et expérience utilisateur.",
           ],
         },
       ],
     },
     {
-      company: "Cognizant",
-      period: "2019 - 2021",
+      company: "Canadian Royalties",
+      period: "2024 - Présent",
       positions: [
         {
-          title: "Senior Fullstack Developer",
+          title: "Superviseur d'équipe — Nunavik, Québec",
           description: [
-            "I designed and developed full-stack RESTful microservices using Netflix OSS, Java, Spring Boot, SQL, Angular, React, and Vue.",
-            "I led development teams, utilizing extreme programming principles such as agile, test-driven development, and paired programming.",
-            "I spearheaded the information architecture and developed a reusable UI component library for healthcare clients.",
-            "I led over 650 developers through a monthly enablement process, training them for client work on the Digital Engineering stack.",
+            "Supervision d'équipes en milieu nordique isolé, gestion des ressources humaines, des horaires et du suivi des heures.",
+            "Gestion et suivi de budgets opérationnels, organisation et répartition du travail selon les priorités terrain.",
+            "Application des règles de santé et sécurité, coordination inter-départements et gestion des situations critiques en contexte de fly in/fly out 14/14 - 21/21.",
           ],
         },
       ],
     },
     {
-      company: "projekt202",
+      company: "Real by Fake",
+      period: "2021 - 2023",
+      positions: [
+        {
+          title: "Designer & Coordinateur d'équipe — Montréal",
+          description: [
+            "Direction artistique pour des clients en production multimédia : séquences d'ouverture, illustrations, concepts visuels.",
+            "Développement de stratégies de gestion d'équipe pour une équipe de 40 artistes, entraînant une augmentation de 20% des taux de réalisation des projets.",
+            "Spécialisation en direction photo et expérience utilisateur, à l'intersection de la recherche créative et de la conception artistique.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Lamour",
+      period: "2020 - 2021",
+      positions: [
+        {
+          title: "Designer Graphique — Montréal",
+          description: [
+            "Création et direction artistique de visuels pour 37 marques et licences, incluant packagings, signalétiques, refontes complètes de marques, logos et matériels promotionnels.",
+            "Élaboration de stratégies pour les lancements de collections en collaboration avec l'équipe marketing.",
+            "Réalisation de prises de vue en studio et retouches photo.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Haigo",
+      period: "2019 - 2020",
+      positions: [
+        {
+          title: "Designer UX/UI — Paris",
+          description: [
+            "Création et développement des directives UI pour l'application mobile d'AXA France, garantissant une expérience utilisateur cohérente et intuitive.",
+            "Participation à la conception et à l'exécution de recherches utilisateur, traduisant les besoins en solutions digitales centrées sur l'utilisateur.",
+            "Collaboration étroite avec les clients pour analyser les attentes des utilisateurs finaux et concevoir des applications à forte adoption.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "Studio Wolfgang & Franklin Bélingard",
       period: "2018 - 2019",
       positions: [
         {
-          title: "UI Developer",
+          title: "Directeur Artistique / Assistant Photographe — Paris",
           description: [
-            "I assisted in developing a reusable UI component library and worked closely with a multi-million dollar airline client to gather requirements.",
-            "My responsibility included developing solutions for enterprise clients worth millions of dollars, using Angular 7 for the frontend.",
+            "Direction artistique : mise en place de la vision créative entre le photographe et les clients.",
+            "Photographie de mode et de produit, design de scénographie pour séances photo en intérieur et extérieur.",
           ],
         },
       ],
     },
     {
-      company: "Major 4 Apps",
-      period: "2018 - 2019",
+      company: "Jonsen Island & Studio Thomas Cantoni / Malax",
+      period: "2016 - 2018",
       positions: [
         {
-          title: "Founder & Developer",
+          title: "Designer Graphique & Directeur Artistique Junior — Marseille",
           description: [
-            "I developed custom applications for clients, designed, developed, tested, and supported mobile applications on iOS and Android platforms.",
-            "My mobile game ranked among the top 200 on the Amazon App Store.",
+            "Création d'identité de marque, visuels pour lignes de vêtements, logotypes, supports éditoriaux et signalétiques.",
+            "Définition et mise en œuvre de la vision créative pour les collections, en collaboration avec le directeur de création.",
+            "Élaboration de stratégies marketing et storytelling. Photographie et scénographie pour les séances photo.",
+          ],
+        },
+      ],
+    },
+    {
+      company: "IMBE Research Center — IRD",
+      period: "2018",
+      positions: [
+        {
+          title: "Projet de recherche — Steak de Mycélium, Marseille",
+          description: [
+            "Analyse des propriétés nutritionnelles et des contraintes de culture du mycélium en laboratoire, en collaboration avec le Dr Sevastianos Roussos.",
+            "Développement d'un aliment innovant type steak de mycélium, présenté au jury de l'ESADMM avec félicitations.",
           ],
         },
       ],
     },
   ],
-  avatarUrl: "/braydon_headshot_1.jpeg",
+  avatarUrl: "/avatar.jpg",
 };
 
 export function Resume() {

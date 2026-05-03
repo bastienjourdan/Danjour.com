@@ -1,186 +1,113 @@
-import { BgGradient } from "./components/BgGradient";
-import { NewsletterSignUp } from "./components/NewsletterSignUp";
-import { ChangelogBento } from "./components/ChangelogBento";
-import { fetchAndSortBlogPosts } from "./lib/utils";
-import { SpeakingBento } from "./components/SpeakingBento";
-import { CommunityWallBento } from "./components/CommunityWallBento";
-import { CalendarBento } from "./components/CalendarBento";
-import { FeaturedBlogCard } from "./components/FeaturedBlogCard";
-import { ToolboxBento } from "./components/ToolboxBento";
-import { ConnectionsBento } from "./components/ConnectionsBento";
 import { AnimatedProfilePicture } from "./components/AnimatedProfilePicture";
 import { AnimatedText } from "./components/AnimatedText";
 import { PhotoGallery } from "./components/PhotoGallery";
-import { AboutMeBento } from "./components/AboutMeBento";
 import { AnimatedMobilePhotos } from "./components/AnimatedMobilePhotos";
 import { GridWrapper } from "./components/GridWrapper";
-import clsx from "clsx";
+import { AboutMeBento } from "./components/AboutMeBento";
+import { CalendarBento } from "./components/CalendarBento";
+import Link from "next/link";
 
 export default async function Home() {
-  const allPublishedBlogPosts = await fetchAndSortBlogPosts();
-  const featuredArticles = allPublishedBlogPosts.slice(0, 4);
-
   const PROFILE_DELAY = 0;
   const HEADING_DELAY = PROFILE_DELAY + 0.2;
   const PARAGRAPH_DELAY = HEADING_DELAY + 0.1;
   const PHOTOS_DELAY = PARAGRAPH_DELAY + 0.1;
 
   return (
-    <section>
+    <section className="pb-24 pt-6">
       <AnimatedProfilePicture delay={PROFILE_DELAY} />
-      <div className="mt-6 space-y-10 md:mt-0 md:space-y-16">
+      <div className="mt-6 space-y-24 md:mt-0">
+
         <section>
           <div className="relative text-balance">
             <GridWrapper>
-              <AnimatedText
-                as="h1"
-                delay={HEADING_DELAY}
-                className="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]"
-              >
-                Hey, I&apos;m Braydon! <br /> Welcome to my corner of the
-                internet!
+              <AnimatedText as="h1" delay={HEADING_DELAY} className="mx-auto max-w-2xl text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-6xl md:leading-[64px]">
+                Bonjour, je suis Bastien. Bienvenue sur Studio Danjour.
               </AnimatedText>
             </GridWrapper>
             <GridWrapper>
-              <div className="mt-4 text-center md:mt-8">
-                <AnimatedText
-                  as="p"
-                  delay={PARAGRAPH_DELAY}
-                  className="leading-8 text-text-secondary"
-                >
-                  I&apos;m a front-end developer with a love for design and a
-                  knack for tinkering. This site is intentionally
-                  over-engineered and serves as my playground for experimenting
-                  with new ideas and seeing what sticks!
+              <div className="mt-0 text-center md:mt-0">
+                <AnimatedText as="p" delay={PARAGRAPH_DELAY} className="leading-8 text-text-secondary">
+                  Directeur artistique et designer multidisciplinaire. Branding, UX/UI, direction artistique et design web.
                 </AnimatedText>
+                <div className="mt-4">
+                  <Link href="/contact" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">
+                    Demarrer un projet
+                  </Link>
+                </div>
               </div>
             </GridWrapper>
           </div>
           <div>
-            {/* Desktop Photos */}
             <div className="relative hidden h-fit w-full items-center justify-center lg:flex">
               <PhotoGallery animationDelay={PHOTOS_DELAY} />
             </div>
-
-            {/* Mobile Photos */}
             <AnimatedMobilePhotos delay={PHOTOS_DELAY} />
           </div>
         </section>
 
-        {/* About Section */}
-        <section className="relative space-y-10 md:space-y-16">
-          {/* <AboutPattern /> */}
-          <div className="space-y-4">
-            <GridWrapper>
-              <div className="text-center text-sm font-medium text-indigo-600">
-                <span>About</span>
-              </div>
-            </GridWrapper>
-            <GridWrapper>
-              <h2 className="mx-auto max-w-lg text-balance text-center text-3xl font-medium leading-10 tracking-tight text-text-primary md:text-4xl">
-                Here&apos;s what sets me apart and makes me unique
-              </h2>
-            </GridWrapper>
-          </div>
-
+        <section className="relative">
           <GridWrapper>
-            <div className="grid grid-cols-1 gap-2 md:grid-cols-12 lg:grid-rows-[14]">
-              <div className="col-span-1 md:col-span-5 lg:col-span-5 lg:row-span-6">
-                <AboutMeBento linkTo="/about" />
+            <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
+              <div className="lg:w-1/3 lg:sticky lg:top-24">
+                <p className="text-sm font-medium text-indigo-600 mb-0">Design</p>
+                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Branding, identite visuelle et design web.</h2>
+                <p className="text-base leading-6 text-text-secondary mb-6">Chaque projet part d'un brief, d'une intention. Je construis des identites qui ont quelque chose a dire.</p>
+                <Link href="/projects" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Voir les projets</Link>
               </div>
+              <div className="lg:w-2/3 grid grid-cols-2 gap-3 md:grid-cols-3">
+  <Link href="/projects/kanawata"><img src="/projects/kanawata/kanawata_2.jpg" className="w-full rounded-xl object-cover aspect-square hover:opacity-90 transition-opacity" alt="Kanawata" /></Link>
+  <Link href="/projects/cool"><img src="/projects/Cool.webp" className="w-full rounded-xl object-cover aspect-square hover:opacity-90 transition-opacity" alt="Cool Shoe" /></Link>
+  <Link href="/projects/afcbaskatong"><img src="/projects/AFCBaskatong/AFCBaskatong_1.jpg" className="w-full rounded-xl object-cover aspect-square hover:opacity-90 transition-opacity" alt="AFC Baskatong" /></Link>
+  <Link href="/projects/festivaldugrosgras"><img src="/projects/Legrosgras.webp" className="w-full rounded-xl object-cover aspect-square hover:opacity-90 transition-opacity" alt="Gros Gras" /></Link>
+  <Link href="/projects/kangol"><img src="/projects/Kangol.webp" className="w-full rounded-xl object-cover aspect-square hover:opacity-90 transition-opacity" alt="Kangol" /></Link>
+  <Link href="/projects/arcticmax"><img src="/projects/ArcticMax.webp" className="w-full rounded-xl object-cover aspect-square hover:opacity-90 transition-opacity" alt="Arcticmax" /></Link>
+</div>
+            </div>
+          </GridWrapper>
+        </section>
 
-              <div className="md:col-span-12 lg:col-span-7 lg:row-span-8">
-                <ConnectionsBento linkTo="/connections" />
+        <section className="relative">
+          <GridWrapper>
+            <div className="flex flex-col lg:flex-row-reverse lg:items-start lg:justify-between gap-8">
+              <div className="lg:w-1/3 lg:sticky lg:top-24">
+                <p className="text-sm font-medium text-indigo-600 mb-0">Fourre-Tout</p>
+                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Idees brutes, concepts sans filtre.</h2>
+                <p className="text-base leading-6 text-text-secondary mb-6">Fourre-tout, c'est le remue-meninges pour differents projets, influence par l'enorme quantite de medias et d'informations qui nous entourent.</p>
+                <Link href="/projects/fourre-tout" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Voir le Fourre-Tout</Link>
               </div>
-
-              <div className="md:col-span-7 md:row-start-1 lg:col-span-5 lg:row-span-7">
-                <ToolboxBento linkTo="/toolbox" />
-              </div>
-
-              <div className="md:col-span-12 lg:col-span-7 lg:row-span-5">
-                <CalendarBento />
+              <div className="lg:w-2/3 columns-2 gap-3 md:columns-3">
+                <img src="/Fourre-Tout/Fourre-Tout_3.png" className="w-full rounded-xl object-cover mb-3" alt="FT 1" />
+                <img src="/Fourre-Tout/Fourre-Tout_2.jpg" className="w-full rounded-xl object-cover mb-3" alt="FT 2" />
+                <img src="/Fourre-Tout/Fourre-Tout_4.jpg" className="w-full rounded-xl object-cover mb-3" alt="FT 3" />
+                <img src="/Fourre-Tout/Fourre-Tout_36.jpeg" className="w-full rounded-xl object-cover mb-3" alt="FT 4" />
+                <img src="/Fourre-Tout/Fourre-Tout_33.jpeg" className="w-full rounded-xl object-cover mb-3" alt="FT 5" />
+                <img src="/Fourre-Tout/Fourre-Tout_41.jpg" className="w-full rounded-xl object-cover mb-3" alt="FT 6" />
+                <img src="/Fourre-Tout/Fourre-Tout_35.jpeg" className="w-full rounded-xl object-cover mb-3" alt="FT 7" />
               </div>
             </div>
           </GridWrapper>
         </section>
 
-        {/* Blog Section */}
-        <section className="relative space-y-10 md:space-y-16">
-          {/* <BlogPattern /> */}
-          <div className="relative space-y-4 text-balance">
-            <span className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2">
-              <BgGradient />
-            </span>
-            <GridWrapper>
-              <div className="text-center text-sm font-medium text-indigo-600">
-                <span>Blog</span>
-              </div>
-            </GridWrapper>
-            <GridWrapper>
-              <h2 className="mx-auto max-w-lg text-center text-3xl font-medium leading-10 tracking-tighter text-text-primary md:text-4xl">
-                I like sharing my experiments && knowledge with others
-              </h2>
-            </GridWrapper>
-          </div>
-
-          <div className="z-10">
-            <GridWrapper>
-              <ul className="z-50 grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
-                {featuredArticles.length > 0 ? (
-                  <>
-                    {featuredArticles.slice(0, 4).map((post, index) => (
-                      <FeaturedBlogCard
-                        key={post.slug}
-                        slug={post.slug}
-                        imageName={post.imageName}
-                        title={post.title}
-                        summary={post.summary}
-                        className={clsx(
-                          // Hide the fourth article on mobile and desktop
-                          index === 3 && "hidden md:block lg:hidden",
-                        )}
-                      />
-                    ))}
-                  </>
-                ) : (
-                  <p>Nothing to see here yet...</p>
-                )}
-              </ul>
-            </GridWrapper>
-          </div>
-        </section>
-
-        {/* My Site Section */}
-        <section className="relative space-y-10 md:space-y-16">
-          {/* <MySitePattern /> */}
-          <div className="space-y-4 text-balance">
-            <GridWrapper>
-              <div className="text-center text-sm font-medium text-indigo-600">
-                <span>My Site</span>
-              </div>
-            </GridWrapper>
-            <GridWrapper>
-              <h2 className="text-center text-3xl font-medium leading-10 tracking-tighter text-text-primary md:mx-auto md:max-w-lg md:text-4xl">
-                My site is a playful sandbox. Explore, experiment, && say hello
-              </h2>
-            </GridWrapper>
-          </div>
-
+        <section className="relative">
           <GridWrapper>
-            <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3">
-              <span className="col-span-1 h-[276px] sm:block md:hidden lg:block">
-                <ChangelogBento />
-              </span>
-              <SpeakingBento />
-              <CommunityWallBento />
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 overflow-hidden">
+              <AboutMeBento linkTo="/about" />
+              <CalendarBento />
             </div>
           </GridWrapper>
         </section>
 
-        {/* Newsletter Section */}
-        <section>
-          <NewsletterSignUp />
+        <section className="relative">
+          <GridWrapper>
+            <div className="text-center space-y-6 py-16 border-t border-gray-100">
+              <h2 className="text-4xl font-medium tracking-tighter text-text-primary md:text-5xl">Mettons-nous au travail.</h2>
+              <p className="text-base leading-8 text-text-secondary max-w-lg mx-auto">Tout commence par une idee, une intention. Parlons de votre projet.</p>
+              <Link href="/contact" className="inline-block rounded-full border border-gray-900 px-8 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Demarrer un projet</Link>
+            </div>
+          </GridWrapper>
         </section>
+
       </div>
     </section>
   );

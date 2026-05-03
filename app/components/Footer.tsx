@@ -1,108 +1,50 @@
 import Link from "next/link";
-import { SocialPill } from "./SocialPill";
 import { GridWrapper } from "./GridWrapper";
 
-interface FooterLink {
-  href: string;
-  label: string;
-  isExternal?: boolean;
-}
-
-interface FooterSection {
-  title: string;
-  links: FooterLink[];
-}
-
-const footerSections: FooterSection[] = [
-  {
-    title: "General",
-    links: [
-      { href: "/", label: "Home" },
-      { href: "/about", label: "About" },
-      { href: "/projects", label: "Projects" },
-      { href: "/blog", label: "Blog" },
-    ],
-  },
-  {
-    title: "Specifics",
-    links: [
-      { href: "/toolbox", label: "Toolbox" },
-      { href: "/speaking", label: "Speaking" },
-      {
-        href: "https://braydoncoyer.lemonsqueezy.com/",
-        label: "Products",
-        isExternal: true,
-      },
-      { href: "/community-wall", label: "Community Wall" },
-    ],
-  },
-  {
-    title: "Extra",
-    links: [
-      { href: "/changelog", label: "Changelog" },
-      { href: "/connections", label: "Connections" },
-      { href: "/links", label: "Links" },
-      { href: "/stats", label: "Stats" },
-    ],
-  },
-];
-
 export function Footer(): JSX.Element {
-  const renderFooterLink = (link: FooterLink): JSX.Element => {
-    if (link.isExternal) {
-      return (
-        <a href={link.href} target="_blank" rel="noopener noreferrer">
-          {link.label}
-        </a>
-      );
-    }
-    return <Link href={link.href}>{link.label}</Link>;
-  };
-
   return (
     <>
       <div className="relative max-w-7xl border-border-primary/50">
         <GridWrapper>
-          <div className="max-w-6xl divide-y px-4 lg:mx-auto lg:flex lg:divide-x lg:px-4 xl:px-0">
-            <div className="flex w-full py-6 text-sm">
-              <div>
-                <div className="flex-grow space-y-6">
-                  <Link className="inline-block" href="/">
-                    <img
-                      className="h-10 w-10"
-                      src="/bcoyerlogo_dark.svg"
-                      alt="Braydon's Logo"
-                    />
-                  </Link>
-                  <p className="w-60 leading-5 text-gray-500">
-                    I&apos;m Braydon - a senior front-end developer, blogger and
-                    public speaker. Thanks for checking out my site!
-                  </p>
-                </div>
-                <p className="mt-6 text-gray-500">
-                  © {new Date().getFullYear()} Braydon Coyer
+          <div className="max-w-6xl px-4 lg:mx-auto lg:px-4 xl:px-0">
+            <div className="flex w-full py-8 flex-col lg:flex-row lg:justify-between lg:items-end gap-8">
+              <div className="space-y-4">
+                <Link className="inline-block" href="/">
+                  <img className="h-10 w-10" src="/logo.svg" alt="Studio Danjour" />
+                </Link>
+                <p className="w-60 leading-5 text-gray-500 text-sm">
+                  Directeur artistique et designer multidisciplinaire — Marseille et Quebec.
+                </p>
+                <p className="text-gray-500 text-sm">
+                  © {new Date().getFullYear()} Bastien Jourdan
                 </p>
               </div>
-              <div className="flex w-full items-end justify-end pr-16">
-                <SocialPill />
-              </div>
-            </div>
-            <div className="flex w-full flex-col items-end py-6 text-xs lg:pl-16">
-              <div className="ld:space-x-0 flex w-full justify-between md:justify-start md:space-x-36 lg:justify-between">
-                {footerSections.map((section) => (
-                  <div key={section.title}>
-                    <span className="mb-4 inline-block text-base font-medium text-text-primary">
-                      {section.title}
-                    </span>
-                    <ul className="space-y-2 text-sm text-gray-500">
-                      {section.links.map((link) => (
-                        <li className="hover:text-text-primary" key={link.href}>
-                          {renderFooterLink(link)}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
+
+              <div className="flex gap-16 text-sm">
+                <div>
+                  <span className="mb-4 inline-block font-medium text-text-primary">Navigation</span>
+                  <ul className="space-y-2 text-gray-500">
+                    <li className="hover:text-text-primary"><Link href="/">Accueil</Link></li>
+                    <li className="hover:text-text-primary"><Link href="/about">A propos</Link></li>
+                    <li className="hover:text-text-primary"><Link href="/projects">Projets</Link></li>
+                    <li className="hover:text-text-primary"><Link href="/contact">Contact</Link></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <span className="mb-4 inline-block font-medium text-text-primary">Contact</span>
+                  <ul className="space-y-2 text-gray-500">
+                    <li className="hover:text-text-primary">
+                      <a href="mailto:contact@danjour.com">Email</a>
+                    </li>
+                    <li className="hover:text-text-primary">
+                      <a href="https://www.linkedin.com/in/bastienjourdan-/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li className="hover:text-text-primary">
+                      <a href="https://www.instagram.com/bastien_jourdan/" target="_blank">Instagram</a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

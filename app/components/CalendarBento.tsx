@@ -1,7 +1,7 @@
 import React from "react";
 import { BentoCard } from "./BentoCard";
 
-const dayNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+const dayNames = ["DIM", "LUN", "MAR", "MER", "JEU", "VEN", "SAM"];
 
 const CalendarDay: React.FC<{ day: number | string; isHeader?: boolean }> = ({
   day,
@@ -37,11 +37,7 @@ export function CalendarBento() {
     0,
   ).getDate();
 
-  const bookingLink = `https://cal.com/braydon-coyer-8ayx8q/30min?month=${currentYear}-${(
-    currentDate.getMonth() + 1
-  )
-    .toString()
-    .padStart(2, "0")}`;
+  const bookingLink = "https://calendly.com/contact-danjour/rencontre";
 
   const renderCalendarDays = () => {
     let days: React.ReactNode[] = [
@@ -66,12 +62,12 @@ export function CalendarBento() {
     <BentoCard height="h-[220px]" linkTo={bookingLink}>
       <div className="group grid h-full grid-cols-12 gap-5">
         <div className="col-span-5 text-balance md:col-span-5">
-          <h2 className="mb-4 text-base font-medium">Book a call with me</h2>
+          <h2 className="mb-4 text-base font-medium">Réservez un appel</h2>
           <p className="mb-2 text-text-secondary">
-            I&apos;d love to chat even if there&apos;s no agenda!
+            Discutons de ton projet, meme sans agenda precis !
           </p>
         </div>
-        <div className="absolute left-[43%] top-7 transition-all duration-500 ease-out md:-right-14 md:left-auto md:group-hover:-right-12 md:group-hover:top-5">
+        <div className="absolute left-[0%] top-12 transition-all duration-500 ease-out md:-right-60 md:left-auto md:group-hover:-right-45 md:group-hover:top-8">
           <div>
             <div className="h-[278px] w-[550px] rounded-[20px] border border-border-primary p-2 transition-colors duration-100 group-hover:border-indigo-400">
               <div

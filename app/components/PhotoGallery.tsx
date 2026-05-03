@@ -79,7 +79,7 @@ export const PhotoGallery = ({
       y: "15px",
       zIndex: 50, // Highest z-index (on top)
       direction: "left" as Direction,
-      src: "/braydon_headshot_3.jpg",
+      src: "/Fourre-Tout/Fourre-Tout_15.jpg",
     },
     {
       id: 2,
@@ -88,16 +88,16 @@ export const PhotoGallery = ({
       y: "32px",
       zIndex: 40,
       direction: "left" as Direction,
-      src: "/braydon_speaking_photo.jpeg",
+      src: "/Fourre-Tout/Fourre-Tout_4.jpg",
     },
     {
       id: 3,
       order: 2,
       x: "0px",
-      y: "8px",
+      y: "30px",
       zIndex: 30,
       direction: "right" as Direction,
-      src: "/braydon_headshot_1.jpeg",
+      src: "/Fourre-Tout/Fourre-Tout_44.jpg",
     },
     {
       id: 4,
@@ -106,7 +106,7 @@ export const PhotoGallery = ({
       y: "22px",
       zIndex: 20,
       direction: "right" as Direction,
-      src: "/c3_speaker_head.png",
+      src: "/Fourre-Tout/Fourre-Tout_36.jpeg",
     },
     {
       id: 5,
@@ -115,7 +115,7 @@ export const PhotoGallery = ({
       y: "44px",
       zIndex: 10, // Lowest z-index (at bottom)
       direction: "left" as Direction,
-      src: "/braydon_headshot_4.jpg",
+      src: "/Fourre-Tout/Fourre-Tout_26.jpg",
     },
   ];
 
@@ -133,7 +133,7 @@ export const PhotoGallery = ({
           initial="hidden"
           animate={isLoaded ? "visible" : "hidden"}
         >
-          <div className="relative h-[220px] w-[220px]">
+          <div className="relative h-[264px] w-[264px]">
             {/* Render photos in reverse order so that higher z-index photos are rendered later in the DOM */}
             {[...photos].reverse().map((photo) => (
               <motion.div
@@ -148,8 +148,8 @@ export const PhotoGallery = ({
                 }}
               >
                 <Photo
-                  width={220}
-                  height={220}
+                  width={250}
+                  height={250}
                   src={photo.src}
                   alt="Family photo"
                   direction={photo.direction}

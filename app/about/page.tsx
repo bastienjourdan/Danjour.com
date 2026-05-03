@@ -1,4 +1,3 @@
-import { NewsletterSignUp } from "@/app/components/NewsletterSignUp";
 import { HorizontalLine } from "@/app/components/HorizontalLine";
 import { getTimeOfDayGreeting } from "app/lib/utils";
 import React from "react";
@@ -18,7 +17,7 @@ export default function AboutPage() {
 
   return (
     <div className="relative mt-14">
-      <title>About | Braydon Coyer</title>
+      <title>About | Bastien Jourdan</title>
       <div className="relative space-y-10 md:space-y-16">
         {/* Title */}
         <GridWrapper className="space-y-12">
@@ -28,7 +27,7 @@ export default function AboutPage() {
                 <span>{timeOfDayGreeting}</span>
               </div>
               <h1 className="mx-auto max-w-2xl text-balance text-center text-4xl font-medium leading-tight tracking-tighter text-text-primary md:text-5xl lg:text-left lg:text-6xl lg:leading-[64px]">
-                I&apos;m Braydon, a creative frontend engineer.
+                Je suis Bastien, directeur artistique & designer multidisciplinaire.
               </h1>
             </div>
             <div className="order-1 my-12 flex-shrink-0 lg:order-2 lg:my-0">
@@ -36,28 +35,28 @@ export default function AboutPage() {
                 <div className="relative grid grid-cols-3">
                   <div className="relative z-20 -translate-y-2">
                     <Photo
-                      width={140}
-                      height={140}
-                      src="/braydon_speaking_photo.jpeg"
-                      alt="Braydon Coyer"
+                      width={160}
+                      height={200}
+                      src="/bastien_5.JPG"
+                      alt="Bastien Jourdan"
                       direction="left"
                     />
                   </div>
                   <div className="relative z-30">
                     <Photo
-                      width={140}
-                      height={140}
-                      src="/braydon_headshot_1.jpeg"
-                      alt="Braydon Coyer"
+                      width={160}
+                      height={200}
+                      src="/bastien_2.jpg"
+                      alt="Bastien Jourdan"
                       direction="right"
                     />
                   </div>
                   <div className="relative z-20 translate-y-4">
                     <Photo
-                      width={140}
-                      height={140}
-                      src="/braydon_headshot_3.jpg"
-                      alt="Braydon Coyer"
+                      width={160}
+                      height={200}
+                      src="/bastien_3.jpg"
+                      alt="Bastien Jourdan"
                       direction="left"
                     />
                   </div>
@@ -76,12 +75,12 @@ export default function AboutPage() {
           <div className="space-y-4">
             <GridWrapper>
               <div className="text-center text-sm font-medium text-indigo-600">
-                <span>About</span>
+                <span>À propos</span>
               </div>
             </GridWrapper>
             <GridWrapper>
               <h2 className="mx-auto max-w-xl text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                Here&apos;s a quick intro about me and what I love to do
+                Voici une brève présentation de moi et de ce que j'aime faire.
               </h2>
             </GridWrapper>
           </div>
@@ -98,21 +97,16 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/knights_kwest.jpeg"
+                      src="/ARTICLE-ESADMM-4-crédit.jpg"
                       alt="A headshot"
                     />
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  My programming origins
+                  Mes origines
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When Apple unveiled the first iPad with its beautiful 1024x768
-                  display, I knew I had to create for it. I taught myself mobile
-                  development while freelancing, and soon I was shipping iOS and
-                  Android apps. One of my games even climbed above Angry Birds
-                  in the charts for a while—which still makes me smile when I
-                  think about it.
+                  J'ai grandi sur la Côte d'Azur, mais c'est à Marseille que tout a commencé. À l'ESADMM, design produit et graphique — mais la vraie formation s'est faite dehors. Verre soufflé avec le CIRVA, scénographie au Musée Antique d'Arles, co-fondateur de Vaï, un collectif culinaire qui remuait toute la ville. Projet de fin d'études : des steaks de mycélium développés avec un labo de microbiologie, en réponse à la pénurie alimentaire. Le jury les a mangés. Littéralement.
                 </p>
               </div>
               <div className="hidden lg:order-1 lg:block">
@@ -120,7 +114,7 @@ export default function AboutPage() {
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/knights_kwest.jpeg"
+                    src="/ARTICLE-ESADMM-4-crédit.jpg"
                     alt="A headshot"
                   />
                 </div>
@@ -128,7 +122,7 @@ export default function AboutPage() {
             </div>
 
             {/* Section 2 */}
-            <div className="grid grid-cols-1 gap-8 py-24 lg:grid-cols-2 lg:items-center lg:justify-between lg:pl-12">
+            <div className="grid grid-cols-1 gap-8 py-16 lg:grid-cols-2 lg:items-center lg:justify-between lg:pl-12">
               <div className="flex flex-col items-center text-left lg:items-start">
                 <div className="mb-8 lg:hidden">
                   <div className="relative mx-auto w-fit">
@@ -136,70 +130,56 @@ export default function AboutPage() {
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
                       src="/c3_speaker_head.png"
-                      alt="Speaking at C3 Conf!"
+                      alt=""
                     />
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Finding My Way to Web
+                  Trouver ma direction
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Despite my love for mobile development, the web kept calling
-                  my name. With my eye for design, frontend felt like the
-                  perfect playground. I dove into HTML, CSS, and JavaScript—with
-                  React in 2016 becoming my game-changer. A few months later and
-                  I had landed my first full-time web dev role and never looked
-                  back.
+                  Ma dernière année a tout changé. Mentoré par le graphiste et illustrateur Thomas Cantoni, j'ai découvert la direction artistique, le branding et le design digital. Trois ans à travailler pour sa marque de surf Josen Island — DA, photographe, graphiste, scénographe — m'ont donné une expérience concrète à toute vitesse. Je n'avais aucune envie de dessiner une énième chaise à l'heure d'IKEA et du fast design. L'écran est devenu mon matériau de prédilection.
                 </p>
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
-                  <ShadowBox width={188} height={278}></ShadowBox>
+                  <ShadowBox width={188} height={300}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                    src="/braydon_headshot_3.jpg"
-                    alt="Speaking at C3 Conf!"
+                    src="/bastien_3.jpg"
+                    alt=""
                   />
                 </div>
               </div>
             </div>
 
             {/* Section 3 */}
-            <div className="grid grid-cols-1 gap-8 pr-12 lg:grid-cols-2 lg:items-center lg:justify-between xl:py-24">
+            <div className="grid grid-cols-1 gap-8 pr-0 lg:grid-cols-2 lg:items-center lg:justify-between xl:py-12">
               <div className="flex flex-col items-center text-left lg:order-2 lg:items-start">
                 <div className="mb-8 lg:hidden">
                   <div className="relative mx-auto w-fit">
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                      src="/braydon_and_pj.jpeg"
+                      src="/Nuri_4_2019.webp"
                       alt="A headshot"
                     />
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Life Beyond Code
+                  Paris, Montréal
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When I met PeggyJean, I knew pretty quickly she was the one.
-                  After proposing, we had grand wedding plans – until COVID
-                  happened. We pivoted (developer joke!) and had a small,
-                  intimate ceremony in 2020 that turned out more perfect than we
-                  could have imagined.
+                  Paris, c'est la photographie de mode avec le Studio Wolfgang, puis l'UX/UI en autodidacte et quelques mois chez l'agence Haigo — le temps d'apprendre vite et de passer à autre chose. Un tirage au sort au Working Holiday Visa scelle la décision : janvier 2020, je pose mes valises à Montréal. Je design pour Lamour, je construis, j'observe. Quand l'IA publique débarque en 2022, je vois avant beaucoup d'autres que le design digital va être chamboulé. Je choisis délibérément de pivoter vers l'humain — je combine le freelance design avec la coordination de production en effets spéciaux chez Real by Fake, deux ans à gérer des équipes créatives à l'intersection de l'art et de la technologie. Une expérience que peu de designers ont.
                 </p>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Family has always been my center, and seeing ours grow has
-                  been life&apos;s greatest joy. Our daughter ElizaJane arrived
-                  in 2021, bringing endless wonder to our days, and little Renny
-                  joined our crew in 2023, completing our circle.
-                </p>
+                
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
                     className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[-8deg] rounded-lg object-cover shadow"
-                    src="/braydon_and_pj.jpeg"
+                    src="/Nuri_4_2019.webp"
                     alt="A headshot"
                   />
                 </div>
@@ -214,34 +194,25 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                      src="/braydon_speaking_photo.jpeg"
+                      src="/bastien_1.jpg"
                       alt="A headshot"
                     />
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  These Days
+                  Aujourd'hui
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Currently, I&apos;m leading teams at LogicGate as a Senior
-                  Frontend Engineer where we&apos;re building some pretty
-                  awesome stuff. Speaking at tech conferences has become a
-                  regular part of my year.
+                  J'ai déménagé dans les Hautes-Laurentides — un chalet dans la forêt, face à un lac, en autonomie avec ma conjointe Mélodie, trois chiens et deux chats. Je travaille à un rythme humain : design freelance pour les commerces et agences de la région, et rotations de supervision d'équipe dans le Grand Nord québécois en fly in fly out 14/14. Entre les deux, je voyage, je surfe, réstore mon chalet, et je continue de construire Studio Danjour — un projet à la fois, avec intention.
                 </p>
-                <p className="mb-6 text-base leading-8 text-text-secondary">
-                  When I&apos;m not working, you&apos;ll find me on creative
-                  coding side projects, writing for my blog, failing
-                  spectacularly at games with friends, or—best of all—hanging
-                  out with my family, usually with coffee nearby and dad jokes
-                  at the ready.
-                </p>
+                
               </div>
               <div className="hidden lg:block">
                 <div className="relative mx-auto w-fit">
                   <ShadowBox width={188} height={278}></ShadowBox>
                   <img
-                    className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                    src="/braydon_speaking_photo.jpeg"
+                    className="absolute left-0 top-0 h-[300px] w-[220px] rotate-[8deg] rounded-lg object-cover shadow"
+                    src="/bastien_6.JPG"
                     alt="A headshot"
                   />
                 </div>
@@ -255,12 +226,12 @@ export default function AboutPage() {
           <div className="space-y-4">
             <GridWrapper>
               <div className="text-center text-sm font-medium text-indigo-600">
-                <span>Experience</span>
+                <span>Experiences</span>
               </div>
             </GridWrapper>
             <GridWrapper>
               <h2 className="mx-auto max-w-lg text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                My work history and achievements timeline.
+                Mon parcours et mes expériences professionnelles.
               </h2>
             </GridWrapper>
           </div>
@@ -278,13 +249,13 @@ export default function AboutPage() {
           <div className="space-y-4">
             <GridWrapper>
               <div className="text-center text-sm font-medium text-indigo-600">
-                <span>More</span>
+                <span></span>
               </div>
             </GridWrapper>
 
             <GridWrapper>
               <h2 className="mx-auto max-w-lg text-balance text-center text-3xl font-medium leading-10 tracking-tight text-text-primary">
-                Here&apos;s what sets me apart and makes me unique
+                Ma marque de fabrique
               </h2>
             </GridWrapper>
           </div>
@@ -301,19 +272,24 @@ export default function AboutPage() {
               <div className="hidden lg:col-span-2 lg:col-start-11 lg:row-span-10 lg:block lg:min-h-[50px]">
                 <CurrentlyReadingBento />
               </div>
-              <div className="lg:col-span-7 lg:row-span-8">
-                <ConnectionsBento linkTo="/connections" />
+              <div className="relative lg:col-span-7 lg:row-span-8 group">
+                <ConnectionsBento />
+                <div className="absolute inset-0 bg-gray-100/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center">
+                  <span className="text-sm font-medium text-gray-600">Coming soon</span>
+                </div>
               </div>
 
-              <div className="lg:col-span-3 lg:row-span-4">
+              <div className="relative lg:col-span-3 lg:row-span-4 group">
                 <StatsBento />
+                <div className="absolute inset-0 bg-gray-100/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center">
+                  <span className="text-sm font-medium text-gray-600">Coming soon</span>
+                </div>
               </div>
             </div>
           </GridWrapper>
         </section>
 
-        {/* Newsletter */}
-        <NewsletterSignUp />
+      
       </div>
     </div>
   );

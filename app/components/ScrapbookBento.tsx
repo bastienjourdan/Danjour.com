@@ -207,45 +207,45 @@ export function ScrapbookBento({ className }: { className?: string }) {
           className="-mt-8 grid h-full w-full grid-cols-4 items-center gap-4"
         >
           <Sticker
-            caption="THAT Conference was my favorite tech event of 2024! I even kicked off my speaking season with my very first talk of the year there!"
+            caption="La terre avant tout — vivre en autonomie dans les Hautes-Laurentides, c'est un choix de vie autant qu'un engagement envers la nature."
             index={0}
           >
             <img
-              width="80"
-              src="/that_conf_sticker.png"
+              width="100"
+              src="/EARTH.png"
               className="xs:max-w-none max-w-[100px]"
               draggable={false}
             />
           </Sticker>
           <Sticker
-            caption={`I became an international speaker at C3 Dev Fest, where I shared insights on "The Power of a Second Brain in a Developer's Workflow."`}
+            caption="Mon film culte. Des gangsters qui se recyclent dans la politique et le showbusiness — L'Aventure c'est l'Aventure, Claude Lelouch 1972."
             index={1}
           >
             <img
               width="96"
-              src="c3_conf_sticker.png"
+              src="/L'aventure c'est l'aventure.png"
               className="xs:max-w-none max-w-[100px]"
               draggable={false}
             />
           </Sticker>
           <Sticker
-            caption="I'm a huge Lord of the Rings nerd and host an epic 3-day marathon every year to watch the extended editions with friends and family."
+            caption="18 ans de surf et pas question d'arrêter. Australie, Bali, Pérou, Brésil, Europe — le prochain objectif : vivre à deux pas d'un spot."
             index={2}
           >
             <img
-              width="130"
-              src="/lotr_sticker.png"
+              width="40"
+              src="/SURFBOARD.png"
               className=""
               draggable={false}
             />
           </Sticker>
           <Sticker
-            caption="I helped create, organize, and speak at the inaugural Commit Your Code Conference in 2024, where every penny went to charity!"
+            caption="Cinéphile depuis toujours. Le cinéma m'a autant formé que l'école de design."
             index={3}
           >
             <img
-              width="160"
-              src="/cyc_sticker.png"
+              width="120"
+              src="/popcorn.png"
               draggable={false}
               className="xs:max-w-none"
             />
