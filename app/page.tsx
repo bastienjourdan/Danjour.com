@@ -42,7 +42,7 @@ export default async function Home() {
             <div className="relative hidden h-fit w-full items-center justify-center lg:flex">
               <PhotoGallery animationDelay={PHOTOS_DELAY} />
             </div>
-            <AnimatedMobilePhotos delay={PHOTOS_DELAY} />
+            <div className="hidden"><AnimatedMobilePhotos delay={PHOTOS_DELAY} /></div>
           </div>
         </section>
 
