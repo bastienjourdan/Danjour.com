@@ -30,7 +30,7 @@ export default function AboutPage() {
                 Je suis Bastien, directeur artistique & designer multidisciplinaire.
               </h1>
             </div>
-            <div className="order-1 my-12 flex-shrink-0 lg:order-2 lg:my-0">
+            <div className="order-1 my-12 flex-shrink-0 lg:order-2 lg:my-0 hidden lg:block">
               <div className="relative mx-auto w-full max-w-[400px]">
                 <div className="relative grid grid-cols-3">
                   <div className="relative z-20 -translate-y-2">
