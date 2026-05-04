@@ -63,7 +63,7 @@ function DesktopNav() {
           </li>
         ))}
       </ul>
-      <SocialPill />
+     
     </nav>
   );
 }
