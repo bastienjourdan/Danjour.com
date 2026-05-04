@@ -11,7 +11,12 @@ export default function ContactPage() {
           <p className="text-base leading-7 text-text-secondary text-center mb-12">
             Interesse par une collaboration ? Des questions ? Le formulaire ci-dessous nous aide a mieux comprendre vos besoins. Remplissez-le avec le plus de details possible et nous vous contacterons rapidement pour discuter des prochaines etapes. Creons ensemble quelque chose d'extraordinaire !
           </p>
-
+<div className="text-center mb-8">
+  <a href="mailto:contact@danjour.com" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">
+    contact@danjour.com
+  </a>
+  <p className="text-sm text-gray-400 mt-3">ou remplissez le formulaire ci-dessous</p>
+</div>
           <form action="https://formspree.io/f/mzdodoyy" method="POST" className="space-y-6">
 
             <div className="grid grid-cols-2 gap-4">
