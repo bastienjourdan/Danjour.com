@@ -129,7 +129,7 @@ export default function AboutPage() {
                     <ShadowBox width={188} height={278}></ShadowBox>
                     <img
                       className="absolute left-0 top-0 h-[270px] w-[180px] rotate-[8deg] rounded-lg object-cover shadow"
-                      src="/c3_speaker_head.png"
+                      src="/bastien_3.jpg"
                       alt=""
                     />
                   </div>
@@ -266,20 +266,20 @@ export default function AboutPage() {
               <div className="lg:col-span-3 lg:row-span-6">
                 <CurrentlyPlayingBento />
               </div>
-              <div className="hidden lg:col-span-7 lg:row-span-5 lg:block">
+              <div className="lg:col-span-7 lg:row-span-5">
                 <ScrapbookBento />
               </div>
               <div className="hidden lg:col-span-2 lg:col-start-11 lg:row-span-10 lg:block lg:min-h-[50px]">
                 <CurrentlyReadingBento />
               </div>
-              <div className="relative lg:col-span-7 lg:row-span-8 group">
+              <div className="relative hidden lg:block lg:col-span-7 lg:row-span-8 group">
                 <ConnectionsBento />
                 <div className="absolute inset-0 bg-gray-100/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center">
                   <span className="text-sm font-medium text-gray-600">Coming soon</span>
                 </div>
               </div>
 
-              <div className="relative lg:col-span-3 lg:row-span-4 group">
+              <div className="relative hidden lg:block lg:col-span-3 lg:row-span-4 group">
                 <StatsBento />
                 <div className="absolute inset-0 bg-gray-100/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center">
                   <span className="text-sm font-medium text-gray-600">Coming soon</span>
@@ -287,6 +287,15 @@ export default function AboutPage() {
               </div>
             </div>
           </GridWrapper>
+        <section className="relative lg:hidden">
+          <GridWrapper>
+            <div className="text-center space-y-6 py-16 border-t border-gray-100">
+              <h2 className="text-4xl font-medium tracking-tighter text-text-primary">Mettons-nous au travail.</h2>
+              <p className="text-base leading-8 text-text-secondary max-w-lg mx-auto">Tout commence par une idee, une intention. Parlons de votre projet.</p>
+              <a href="/contact" className="inline-block rounded-full border border-gray-900 px-8 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Demarrer un projet</a>
+            </div>
+          </GridWrapper>
+        </section>
         </section>
 
       
