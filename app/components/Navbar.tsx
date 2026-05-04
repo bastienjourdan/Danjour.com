@@ -37,18 +37,18 @@ function DesktopNav() {
   return (
     <nav
       aria-label="Desktop navigation"
-      className="hidden h-16 w-full items-center justify-between border-b border-border-primary/50 px-4 md:flex"
+      className="hidden h-16 w-full items-center border-b border-border-primary/50 px-4 md:flex"
     >
-      <div className="w-[104px]">
+      <div className="flex-1">
         <Link href="/" aria-label="Home">
           <img
             className="h-6 w-6"
-         src="/logo.svg"
-          alt="Studio Danjour"
+            src="/logo.svg"
+            alt="Studio Danjour"
           />
         </Link>
       </div>
-      <ul className="flex place-items-center space-x-4 rounded-full border border-border-primary px-5 py-2 text-sm text-gray-500">
+      <ul className="absolute left-1/2 -translate-x-1/2 flex place-items-center space-x-4 rounded-full border border-border-primary px-5 py-2 text-sm text-gray-500">
         {navigationLinks.map((link) => (
           <li key={link.name}>
             <Link
@@ -63,7 +63,7 @@ function DesktopNav() {
           </li>
         ))}
       </ul>
-     
+
     </nav>
   );
 }

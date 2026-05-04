@@ -9,7 +9,9 @@ import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
 import Script from "next/script";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = {icons: {
+    icon: '/logo.svg',
+  },
   metadataBase: new URL(siteMetadata.siteUrl),
   description: siteMetadata.description,
   openGraph: {
