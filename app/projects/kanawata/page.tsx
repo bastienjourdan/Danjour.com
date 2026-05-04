@@ -44,14 +44,14 @@ export default function KanawataPage() {
 
       
       <Lightbox images={[
-    "/projects/kanawata/kanawata_2.jpg",
-    "/projects/kanawata/kanawata_3.jpg",
-    "/projects/kanawata/kanawata_4.jpg",
-    "/projects/kanawata/kanawata_5.jpg",
-    "/projects/kanawata/kanawata_6.jpg",
-    "/projects/kanawata/kanawata_7.jpg",
-    "/projects/kanawata/kanawata_8.jpg",
-    "/projects/kanawata/kanawata_9.jpg",
+    "/projects/Kanawata/kanawata_2.jpg",
+    "/projects/Kanawata/kanawata_3.jpg",
+    "/projects/Kanawata/kanawata_4.jpg",
+    "/projects/Kanawata/kanawata_5.jpg",
+    "/projects/Kanawata/kanawata_6.jpg",
+    "/projects/Kanawata/kanawata_7.jpg",
+    "/projects/Kanawata/kanawata_8.jpg",
+    "/projects/Kanawata/kanawata_9.jpg",
   ]} />
 
     </div>
