@@ -218,7 +218,7 @@ export function StatsBento() {
       onMouseLeave={handleMouseLeave}
       onMouseMove={handleMouseMove}
     >
-      <BentoCard height="h-[220px]" className="group" linkTo="/stats">
+      <BentoCard height="h-[220px]" className="group" linkTo="#">
         {/* Title */}
         <motion.h2
           className="relative z-10 font-medium text-text-primary"

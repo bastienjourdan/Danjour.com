@@ -273,14 +273,14 @@ export default function AboutPage() {
                 <CurrentlyReadingBento />
               </div>
               <div className="relative hidden lg:block lg:col-span-7 lg:row-span-8 group">
-                <ConnectionsBento />
+                <ConnectionsBento linkTo="#" />
                 <div className="absolute inset-0 bg-gray-100/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center">
                   <span className="text-sm font-medium text-gray-600">Coming soon</span>
                 </div>
               </div>
 
               <div className="relative hidden lg:block lg:col-span-3 lg:row-span-4 group">
-                <StatsBento />
+                <StatsBento linkTo="#" />
                 <div className="absolute inset-0 bg-gray-100/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl flex items-center justify-center">
                   <span className="text-sm font-medium text-gray-600">Coming soon</span>
                 </div>
