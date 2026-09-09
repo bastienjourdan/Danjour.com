@@ -21,7 +21,7 @@ export default function PhotographiePage() {
         <h1 className="text-5xl font-medium leading-tight tracking-tighter text-text-primary mb-2">
           Photographie
         </h1>
-        <p className="text-sm text-gray-400 mb-8">Capturer l instant, composer la lumiere.</p>
+        
       </GridWrapper>
       <GridWrapper>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 py-8">
