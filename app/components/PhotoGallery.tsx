@@ -79,7 +79,7 @@ export const PhotoGallery = ({
       y: "15px",
       zIndex: 50, // Highest z-index (on top)
       direction: "left" as Direction,
-      src: "/Fourre-Tout/Fourre-Tout_15.jpg",
+      src: "/Glass.jpg",
     },
     {
       id: 2,
@@ -115,7 +115,7 @@ export const PhotoGallery = ({
       y: "44px",
       zIndex: 10, // Lowest z-index (at bottom)
       direction: "left" as Direction,
-      src: "/Fourre-Tout/Fourre-Tout_26.jpg",
+      src: "/Soap.webp",
     },
   ];
 
@@ -151,7 +151,7 @@ export const PhotoGallery = ({
                   width={250}
                   height={250}
                   src={photo.src}
-                  alt="Family photo"
+                  alt="/Glass.jpg"
                   direction={photo.direction}
                 />
               </motion.div>
