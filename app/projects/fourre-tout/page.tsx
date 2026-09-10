@@ -5,24 +5,8 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 
 const images = [
-  "Fourre-Tout_1.jpg", "Fourre-Tout_2.jpg", "Fourre-Tout_3.png",
-  "Fourre-Tout_4.jpg", "Fourre-Tout_5.jpg", "Fourre-Tout_6.jpg",
-  "Fourre-Tout_7.jpg", "Fourre-Tout_8.jpg", "Fourre-Tout_9.jpg",
-  "Fourre-Tout_10.jpg", "Fourre-Tout_11.jpg", "Fourre-Tout_12.jpg",
-  "Fourre-Tout_13.jpg", "Fourre-Tout_14.jpg", "Fourre-Tout_15.jpg",
-  "Fourre-Tout_16.png", "Fourre-Tout_17.png", "Fourre-Tout_18.png",
-  "Fourre-Tout_19.jpg", "Fourre-Tout_20.png", "Fourre-Tout_21.jpg",
-  "Fourre-Tout_22.png", "Fourre-Tout_23.png", "Fourre-Tout_24.jpg",
-  "Fourre-Tout_25.png", "Fourre-Tout_26.jpg", "Fourre-Tout_27.jpg",
-  "Fourre-Tout_28.jpg", "Fourre-Tout_29.jpg", "Fourre-Tout_30.jpg",
-  "Fourre-Tout_31.jpg", "Fourre-Tout_32.jpg", "Fourre-Tout_33.jpeg",
-  "Fourre-Tout_34.jpeg", "Fourre-Tout_35.jpeg", "Fourre-Tout_36.jpeg",
-  "Fourre-Tout_37.jpeg", "Fourre-Tout_38.png", "Fourre-Tout_39.jpg",
-  "Fourre-Tout_40.jpg", "Fourre-Tout_41.jpg", "Fourre-Tout_42.jpg",
-  "Fourre-Tout_43.jpg", "Fourre-Tout_44.jpg", "Fourre-Tout_45.jpg",
-  "Fourre-Tout_46.jpg", "Fourre-Tout_47.jpg", "Fourre-Tout_48.jpeg",
-  "Fourre-Tout_49.JPG.jpg",
-].map(f => `/projects/Fourre-Tout/${f}`);
+  "Fourre-Tout_1.jpg", "Fourre-Tout_11.jpg", "Fourre-Tout_12.jpg", "Fourre-Tout_13.jpg", "Fourre-Tout_14.jpg", "Fourre-Tout_15.png", "Fourre-Tout_16.jpg", "Fourre-Tout_17.png", "Fourre-Tout_18.jpg", "Fourre-Tout_19.png", "Fourre-Tout_2.jpg", "Fourre-Tout_20.jpg", "Fourre-Tout_21.png", "Fourre-Tout_22.jpg", "Fourre-Tout_23.jpg", "Fourre-Tout_24.jpg", "Fourre-Tout_25.jpg", "Fourre-Tout_3.png", "Fourre-Tout_30.jpg", "Fourre-Tout_31.jpg", "Fourre-Tout_32.jpg", "Fourre-Tout_33.jpeg", "Fourre-Tout_34.jpeg", "Fourre-Tout_35.jpeg", "Fourre-Tout_36.jpeg", "Fourre-Tout_37.jpeg", "Fourre-Tout_38.png", "Fourre-Tout_39.jpg", "Fourre-Tout_4.jpg", "Fourre-Tout_40.jpg", "Fourre-Tout_41.jpg", "Fourre-Tout_42.jpg", "Fourre-Tout_43.jpg", "Fourre-Tout_44.jpg", "Fourre-Tout_45.jpg", "Fourre-Tout_46.jpg", "Fourre-Tout_47.jpg", "Fourre-Tout_48.jpeg", "Fourre-Tout_49.JPG.jpg", "Fourre-Tout_5.jpg", "Fourre-Tout_6.jpg", "Fourre-Tout_7.jpg", "Fourre-Tout_8.jpg",
+].map(f => `/Fourre-Tout/${f}`);
 
 export default function FourreToutPage() {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
