@@ -41,7 +41,7 @@ export default function FourreToutPage() {
         <h1 className="text-5xl font-medium leading-tight tracking-tighter text-text-primary mb-2">
           Fourre-Tout
         </h1>
-        <p className="text-sm text-gray-400 mb-8">Idees brutes, concepts sans filtre</p>
+        <p className="text-sm text-gray-400 mb-8">Idées brutes, concepts sans filtre</p>
       </GridWrapper>
 
       <GridWrapper>
@@ -49,7 +49,7 @@ export default function FourreToutPage() {
           <div className="lg:w-1/3"></div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              Fourre-tout, c&apos;est le remue-meninges pour differents projets, influence par l&apos;enorme quantite de medias et d&apos;informations qui nous entourent. Fourre-tout se compose de concepts regurgites ou d&apos;idees non acceptees pour de nouveaux designs.
+              Fourre-tout, c&apos;est le remue-meninges pour différents projets, influence par l&apos;énorme quantite de médias et d&apos;informations qui nous entourent. Fourre-tout se compose de concepts régurgités ou d&apos;idées non acceptees pour de nouveaux designs.
             </p>
           </div>
         </div>

@@ -218,7 +218,7 @@ export default function SpeakingPage() {
                           I am Braydon Coyer, a Senior Frontend Engineer at
                           LogicGate, where I play a key role in developing an
                           automated Governance, Risk, and Compliance (GRC)
-                          platform. As a creative developer, blogger, and
+                          platform. As a créative developer, blogger, and
                           designer, I enjoy tinkering and sharing my projects
                           with the public. I live in Texas with my wife and two
                           daughters.
@@ -229,7 +229,7 @@ export default function SpeakingPage() {
                           Braydon Coyer is a Senior Frontend Engineer at
                           LogicGate, where he plays a key role in developing an
                           automated Governance, Risk, and Compliance (GRC)
-                          platform. As a creative developer, blogger, and
+                          platform. As a créative developer, blogger, and
                           designer, he enjoys tinkering and sharing his projects
                           with the public. Braydon lives in Texas with his wife
                           and two daughters.

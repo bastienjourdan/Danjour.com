@@ -28,11 +28,11 @@ export default async function Home() {
             <GridWrapper>
               <div className="mt-0 text-center md:mt-0">
                 <AnimatedText as="p" delay={PARAGRAPH_DELAY} className="leading-8 text-text-secondary">
-                  Directeur artistique et designer multidisciplinaire entre Marseille et le Quebec. Je transforme les idees en identites visuelles qui ont quelque chose a dire.
+                  Directeur artistique et designer multidisciplinaire entre Marseille et le Quebec. Je transforme les idées en identités visuelles qui ont quelque chose à dire.
                 </AnimatedText>
                 <div className="mt-4">
                   <Link href="/contact" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">
-                    Demarrer un projet
+                    Démarrer un projet
                   </Link>
                 </div>
               </div>
@@ -51,8 +51,8 @@ export default async function Home() {
             <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
               <div className="lg:w-1/3 lg:sticky lg:top-24">
                 <p className="text-sm font-medium text-indigo-600 mb-0">Design</p>
-                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Branding, identite visuelle et design web.</h2>
-                <p className="text-base leading-6 text-text-secondary mb-6">Chaque projet part d'un brief, d'une intention. Je construis des identites qui ont quelque chose a dire.</p>
+                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Branding, identité visuelle et design web.</h2>
+                <p className="text-base leading-6 text-text-secondary mb-6">Chaque projet part d'un brief, d'une intention. Je construis des identités qui ont quelque chose à dire.</p>
                 <Link href="/projects" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Voir les projets</Link>
               </div>
               <div className="lg:w-2/3 grid grid-cols-2 gap-3 md:grid-cols-3">
@@ -72,8 +72,8 @@ export default async function Home() {
             <div className="flex flex-col lg:flex-row-reverse lg:items-start lg:justify-between gap-8">
               <div className="lg:w-1/3 lg:sticky lg:top-24">
                 <p className="text-sm font-medium text-indigo-600 mb-0">Fourre-Tout</p>
-                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Idees brutes, concepts sans filtre.</h2>
-                <p className="text-base leading-6 text-text-secondary mb-6">Fourre-tout, c'est le remue-meninges pour differents projets, influence par l'enorme quantite de medias et d'informations qui nous entourent.</p>
+                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Idées brutes, concepts sans filtre.</h2>
+                <p className="text-base leading-6 text-text-secondary mb-6">Fourre-tout, c'est le remue-meninges pour différents projets, influence par l'énorme quantite de médias et d'informations qui nous entourent.</p>
                 <Link href="/projects/fourre-tout" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Voir le Fourre-Tout</Link>
               </div>
               <div className="lg:w-2/3 columns-2 gap-3 md:columns-3">
@@ -94,8 +94,8 @@ export default async function Home() {
             <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-8">
               <div className="lg:w-1/3 lg:sticky lg:top-24">
                 <p className="text-sm font-medium text-indigo-600 mb-0">Direction Artistique</p>
-                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Mettre en scene, raconter, diriger.</h2>
-                <p className="text-base leading-6 text-text-secondary mb-6">De la photographie de mode a la direction de collections, je traduis une vision en images avec le photographe, le styliste, l espace.</p>
+                <h2 className="text-3xl font-medium leading-tight tracking-tighter text-text-primary mb-6">Mettre en scène, raconter, diriger.</h2>
+                <p className="text-base leading-6 text-text-secondary mb-6">De la photographie de mode a là direction de collections, je traduis une vision en images avec le photographe, le styliste, l'espace.</p>
                 <a href="/projects/direction-artistique" className="inline-block rounded-full border border-gray-900 px-6 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Voir la DA</a>
               </div>
               <div className="lg:w-2/3 grid grid-cols-2 gap-3">
@@ -141,8 +141,8 @@ export default async function Home() {
           <GridWrapper>
             <div className="text-center space-y-6 py-16 border-t border-gray-100">
               <h2 className="text-4xl font-medium tracking-tighter text-text-primary md:text-5xl">Mettons-nous au travail.</h2>
-              <p className="text-base leading-8 text-text-secondary max-w-lg mx-auto">Tout commence par une idee, une intention. Parlons de votre projet.</p>
-              <Link href="/contact" className="inline-block rounded-full border border-gray-900 px-8 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Demarrer un projet</Link>
+              <p className="text-base leading-8 text-text-secondary max-w-lg mx-auto">Tout commence par une idée, une intention. Parlons de votre projet.</p>
+              <Link href="/contact" className="inline-block rounded-full border border-gray-900 px-8 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Démarrer un projet</Link>
             </div>
           </GridWrapper>
         </section>

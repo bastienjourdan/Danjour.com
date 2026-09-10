@@ -27,7 +27,7 @@ const projects: Project[] = [
   { title: "Location Haute Laurentides", description: "Website.", image: "/projects/LHL.webp", url: "/projects/lhl" },
   { title: "LOCO", description: "Branding, Website.", image: "/projects/LOCO/LOCO_1.webp", url: "/projects/loco" },
   { title: "À la cueillette", description: "Branding et Packaging ", image: "/projects/Àlacueillette.webp", url: "/projects/alacueillette" },
-  { title: "Fourre-Tout", description: "Idees brutes, concepts sans filtre.", image: "/projects/Fourre-Tout/Fourre-Tout_1.jpg", url: "/projects/fourre-tout" },
+  { title: "Fourre-Tout", description: "Idées brutes, concepts sans filtre.", image: "/projects/Fourre-Tout/Fourre-Tout_1.jpg", url: "/projects/fourre-tout" },
 ];
 
 export default function ProjectPage() {

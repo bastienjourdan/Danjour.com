@@ -135,10 +135,10 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <h2 className="mb-6 w-full text-balance text-3xl font-medium leading-[40px] tracking-tighter text-text-primary">
-                  Trouver ma direction
+                  Trouver mà direction
                 </h2>
                 <p className="mb-6 text-base leading-8 text-text-secondary">
-                  Ma dernière année a tout changé. Mentoré par le graphiste et illustrateur Thomas Cantoni, j'ai découvert la direction artistique, le branding et le design digital. Trois ans à travailler pour sa marque de surf Josen Island — DA, photographe, graphiste, scénographe — m'ont donné une expérience concrète à toute vitesse. Je n'avais aucune envie de dessiner une énième chaise à l'heure d'IKEA et du fast design. L'écran est devenu mon matériau de prédilection.
+                  Ma dernière année a tout changé. Mentoré par le graphiste et illustrateur Thomas Cantoni, j'ai découvert là direction artistique, le branding et le design digital. Trois ans à travailler pour sa marque de surf Josen Island — DA, photographe, graphiste, scénographe — m'ont donné une expérience concrète à toute vitesse. Je n'avais aucune envie de dessiner une énième chaise à l'heure d'IKEA et du fast design. L'écran est devenu mon matériau de prédilection.
                 </p>
               </div>
               <div className="hidden lg:block">
@@ -291,8 +291,8 @@ export default function AboutPage() {
           <GridWrapper>
             <div className="text-center space-y-6 py-16 border-t border-gray-100">
               <h2 className="text-4xl font-medium tracking-tighter text-text-primary">Mettons-nous au travail.</h2>
-              <p className="text-base leading-8 text-text-secondary max-w-lg mx-auto">Tout commence par une idee, une intention. Parlons de votre projet.</p>
-              <a href="/contact" className="inline-block rounded-full border border-gray-900 px-8 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Demarrer un projet</a>
+              <p className="text-base leading-8 text-text-secondary max-w-lg mx-auto">Tout commence par une idée, une intention. Parlons de votre projet.</p>
+              <a href="/contact" className="inline-block rounded-full border border-gray-900 px-8 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-colors">Démarrer un projet</a>
             </div>
           </GridWrapper>
         </section>

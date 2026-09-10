@@ -77,7 +77,7 @@ export default function ContactPage() {
               <label className="block text-sm font-medium text-text-primary mb-2">Quelles services vous interessent ? <span className="text-gray-400 text-xs">(obligatoire)</span></label>
               <p className="text-xs text-gray-400 mb-3">choisissez tout ce qui correspond</p>
               <div className="space-y-2">
-                {["Conception du logo", "Systeme d'identite visuelle", "Marchandising", "Website", "Illustration", "Packaging", "Contenu des medias sociaux", "Direction artistique", "Demande de renseignements generaux"].map((service) => (
+                {["Conception du logo", "Systeme d'identité visuelle", "Marchandising", "Website", "Illustration", "Packaging", "Contenu des médias sociaux", "Direction artistique", "Demande de renseignements generaux"].map((service) => (
                   <label key={service} className="flex items-center gap-3 text-sm text-text-secondary cursor-pointer">
                     <input type="checkbox" name="services" value={service} className="w-4 h-4 rounded border-gray-300" />
                     {service}

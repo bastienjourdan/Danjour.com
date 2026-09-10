@@ -33,7 +33,7 @@ export default function LAutreLaurentidesPage() {
           </div>
           <div className="lg:w-2/3">
             <p className="text-base leading-7 text-text-secondary">
-              L&apos;Autre Laurentides Découvrir lance une refonte de son site web pour aligner sa direction artistique avec L&apos;Autre Laurentides, assurant cohérence visuelle et une expérience immersive pour mettre en valeur la diversité et la beauté de la région.
+              L&apos;Autre Laurentides Découvrir lance une refonte de son site web pour aligner sà direction artistique avec L&apos;Autre Laurentides, assurant cohérence visuelle et une expérience immersive pour mettre en valeur la diversité et la beauté de la région.
             </p>
           </div>
         </div>
