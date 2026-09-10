@@ -39,9 +39,9 @@ export default function RealByFakePage() {
 
       
       <Lightbox images={[
-    "/projects/REALBYFAKE/RBF_1.gif",
-    "/projects/REALBYFAKE/RBF_2.webp",
-    "/projects/REALBYFAKE/RBF_3.webp",
+    "/projects/realbyfake/RBF_1.gif",
+    "/projects/realbyfake/RBF_2.webp",
+    "/projects/realbyfake/RBF_3.webp",
   ]} />
 
     </div>

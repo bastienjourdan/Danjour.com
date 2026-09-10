@@ -39,18 +39,18 @@ export default function ManipuraPage() {
 
       
       <Lightbox images={[
-    "/projects/manipura/Manipura_1.webp",
-    "/projects/manipura/Manipura_2.webp",
-    "/projects/manipura/Manipura_3.webp",
-    "/projects/manipura/Manipura_4.webp",
-    "/projects/manipura/Manipura_5.webp",
-    "/projects/manipura/Manipura_6.webp",
-    "/projects/manipura/Manipura_7.webp",
-    "/projects/manipura/Manipura_8.webp",
-    "/projects/manipura/Manipura_9.webp",
-    "/projects/manipura/Manipura_10.webp",
-    "/projects/manipura/Manipura_11.webp",
-    "/projects/manipura/Manipura_12.webp",
+    "/projects/Manipura/Manipura_1.webp",
+    "/projects/Manipura/Manipura_2.webp",
+    "/projects/Manipura/Manipura_3.webp",
+    "/projects/Manipura/Manipura_4.webp",
+    "/projects/Manipura/Manipura_5.webp",
+    "/projects/Manipura/Manipura_6.webp",
+    "/projects/Manipura/Manipura_7.webp",
+    "/projects/Manipura/Manipura_8.webp",
+    "/projects/Manipura/Manipura_9.webp",
+    "/projects/Manipura/Manipura_10.webp",
+    "/projects/Manipura/Manipura_11.webp",
+    "/projects/Manipura/Manipura_12.webp",
   ]} />
 
     </div>
